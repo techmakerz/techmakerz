@@ -940,6 +940,24 @@ header.header-light .logo-2{
 	width: 100%;
 }
 
+/*my css*/
+.del {
+    text-decoration: none;
+    position: relative;
+}
+.del:after {
+    content: ' ';
+    font-size: inherit;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -60%;
+    bottom: 60%;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
 /* blog comment */
 
 #blog-comment {
